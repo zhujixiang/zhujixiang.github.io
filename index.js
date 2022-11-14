@@ -1,7 +1,8 @@
-window.onload = () => {
+window.onload = function() {
     let count = 0
     setInterval(() => {
+        console.log(document.getElementsByClassName('first-div'))
         count++
-        document.getElementsByClassName['first-div'][0].innerHTML = count;
-    }, 100)
+        document.getElementsByClassName('firstdiv')[0].innerHTML = count;
+    }, 1000)
 }
