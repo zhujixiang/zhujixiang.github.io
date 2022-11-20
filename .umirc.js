@@ -2,10 +2,11 @@ import { defineConfig } from "umi"
 
 export default defineConfig({
     outputPath: 'docs',
-    // history: { type: 'hash' },
+    history: { type: 'hash' },
     // base: './',
     // publicPath: '.',
-    // hash: true,
+    hash: true,
+    exportStatic: {},
 })
 
 // file:///D:/githubcode/zhujixiang.github.io/docs/umi.1e8ad42b.js

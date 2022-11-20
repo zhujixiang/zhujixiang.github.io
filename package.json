@@ -9,7 +9,7 @@
     "build": "umi build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "umi build",
-    "deploy": "gh-pages -d build"
+    "deploy": "umi build && gh-pages -d docs"
   },
   "repository": {
     "type": "git",
