@@ -4,7 +4,7 @@ export default defineConfig({
     outputPath: 'docs',
     history: { type: 'hash' },
     // base: './',
-    // publicPath: '.',
+    // publicPath: './',
     hash: true,
     exportStatic: {},
 })
