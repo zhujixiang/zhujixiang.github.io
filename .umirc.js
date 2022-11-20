@@ -1,3 +1,6 @@
 export default {
-    outputPath:'docs'
+    outputPath: 'docs',
+    history: { type: 'hash' },
+    base: './',
+    hash: true,
 }
