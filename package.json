@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build"
+  },
+  "devDependencies": {
+    "antd": "^5.0.0",
+    "umi": "^4.0.32"
+  }
+}
