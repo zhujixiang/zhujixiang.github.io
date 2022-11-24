@@ -5,6 +5,7 @@ export default defineConfig({
     // history: { type: 'hash' },
     // hash: true,
     // exportStatic: {},
+
 })
 
 // file:///D:/githubcode/zhujixiang.github.io/docs/umi.1e8ad42b.js

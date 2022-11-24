@@ -2,8 +2,9 @@ import { PureComponent } from "react";
 
 class Index extends PureComponent {
     render() {
+        console.log(this)
         return <>
-            123
+            homepage
         </>
     }
 }
