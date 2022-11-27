@@ -5,6 +5,8 @@ import { ConfigProvider, Radio, theme } from "antd";
 import { StyleProvider } from "@ant-design/cssinjs";
 console.log(StyleProvider);
 
+import { Button } from "antd-mobile";
+
 class Index extends PureComponent {
   constructor(props) {
     super(props);
@@ -12,6 +14,7 @@ class Index extends PureComponent {
 
   render() {
     console.log(this.props);
+    return <Button color="primary">123123123</Button>;
     return (
       <StyleProvider hashPriority="high">
         <Radio>Radio</Radio>
