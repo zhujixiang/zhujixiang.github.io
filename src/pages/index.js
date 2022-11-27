@@ -1,15 +1,17 @@
 import { PureComponent } from "react";
-
-import { Button } from 'antd'
+import { history } from "umi";
+import { connect } from "dva";
 
 class Index extends PureComponent {
-    render() {
-        console.log(this)
-        return <>
-            homepage
-            <Button type="primary">这就很good，let`s begning！！！</Button>
-        </>
-    }
+  componentDidMount() {
+    console.log(connect);
+
+    history.replace("HomePage");
+  }
+  render() {
+    console.log(this);
+    return <>homepage</>;
+  }
 }
 
-export default Index
+export default Index;
