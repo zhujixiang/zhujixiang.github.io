@@ -15,7 +15,7 @@ class Index extends PureComponent {
     return (
       <StyleProvider hashPriority="high">
         <Radio>Radio</Radio>
-        <Outlet />
+        {/* <Outlet /> */}
       </StyleProvider>
     );
     return (
