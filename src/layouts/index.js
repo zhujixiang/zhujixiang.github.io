@@ -2,7 +2,8 @@ import React, { PureComponent } from "react";
 import { Outlet } from "umi";
 
 import { ConfigProvider, Radio, theme } from "antd";
-console.log(theme);
+import { StyleProvider } from "@ant-design/cssinjs";
+console.log(StyleProvider);
 
 class Index extends PureComponent {
   constructor(props) {
@@ -11,6 +12,12 @@ class Index extends PureComponent {
 
   render() {
     console.log(this.props);
+    return (
+      <StyleProvider hashPriority="high">
+        <Radio>Radio</Radio>
+        <Outlet />
+      </StyleProvider>
+    );
     return (
       <>
         <ConfigProvider
